@@ -6,12 +6,11 @@ pygame.init()
 
 # 畫布大小
 screen = pygame.display.set_mode((1280, 400))
-
 BLACK = (0,0,0)
+
 
 # 載入圖片
 img_aa = pygame.image.load("haa.png")
-
 img_aa=pygame.transform.scale(pygame.image.load("haa.png"),(100,200))
 img_bb=pygame.transform.scale(pygame.image.load("dinorun.png"),(100,200))
 img_dinorun = [img_aa,img_bb]
